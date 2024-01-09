@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
 
         supportActionBar?.hide()
 
-       keepPassingFocus()
+        keepPassingFocus()
 
         binding.edt15.addTextChangedListener {
             validateRow(
@@ -93,7 +93,7 @@ class MainActivity : AppCompatActivity() {
         edt3: EditText,
         edt4: EditText,
         edt5: EditText
-    ){
+    ) {
         val edt1Text = edt1.text.toString()
         val edt2Text = edt2.text.toString()
         val edt3Text = edt3.text.toString()
@@ -106,76 +106,76 @@ class MainActivity : AppCompatActivity() {
         val word4 = WORD[3].toString()
         val word5 = WORD[4].toString()
 
-        if (edt1Text == word2 || edt1Text == word3 || edt1Text == word4 || edt1Text == word5){
-            edt1.setBackgroundColor(Color.parseColor("#ffff00"))
+        if (edt1Text == word2 || edt1Text == word3 || edt1Text == word4 || edt1Text == word5) {
+            edt1.setBackgroundColor(resources.getColor(R.color.charfalse))
         }
 
-        if (edt2Text == word1 || edt2Text == word3 || edt2Text == word4 || edt2Text == word5){
-            edt2.setBackgroundColor(Color.parseColor("#ffff00"))
+        if (edt2Text == word1 || edt2Text == word3 || edt2Text == word4 || edt2Text == word5) {
+            edt2.setBackgroundColor(resources.getColor(R.color.charfalse))
         }
 
-        if (edt3Text == word1 || edt3Text == word2 || edt3Text == word4 || edt3Text == word5){
-            edt3.setBackgroundColor(Color.parseColor("#ffff00"))
+        if (edt3Text == word1 || edt3Text == word2 || edt3Text == word4 || edt3Text == word5) {
+            edt3.setBackgroundColor(resources.getColor(R.color.charfalse))
         }
 
-        if (edt4Text == word1 || edt4Text == word2 || edt4Text == word3 || edt4Text == word5){
-            edt4.setBackgroundColor(Color.parseColor("#ffff00"))
+        if (edt4Text == word1 || edt4Text == word2 || edt4Text == word3 || edt4Text == word5) {
+            edt4.setBackgroundColor(resources.getColor(R.color.charfalse))
         }
 
-        if (edt5Text == word1 || edt5Text == word2 || edt5Text == word3 || edt5Text == word4){
-            edt5.setBackgroundColor(Color.parseColor("#ffff00"))
+        if (edt5Text == word1 || edt5Text == word2 || edt5Text == word3 || edt5Text == word4) {
+            edt5.setBackgroundColor(resources.getColor(R.color.charfalse))
         }
 
-        if (edt1Text == word1){
-            edt1.setBackgroundColor(Color.parseColor("#33cc33"))
+        if (edt1Text == word1) {
+            edt1.setBackgroundColor(resources.getColor(R.color.chartrue))
         }
 
-        if (edt2Text == word2){
-            edt2.setBackgroundColor(Color.parseColor("#33cc33"))
+        if (edt2Text == word2) {
+            edt2.setBackgroundColor(resources.getColor(R.color.chartrue))
         }
 
-        if (edt3Text == word3){
-            edt3.setBackgroundColor(Color.parseColor("#33cc33"))
+        if (edt3Text == word3) {
+            edt3.setBackgroundColor(resources.getColor(R.color.chartrue))
         }
 
-        if (edt4Text == word4){
-            edt4.setBackgroundColor(Color.parseColor("#33cc33"))
+        if (edt4Text == word4) {
+            edt4.setBackgroundColor(resources.getColor(R.color.chartrue))
         }
 
-        if (edt5Text == word5){
-            edt5.setBackgroundColor(Color.parseColor("#33cc33"))
+        if (edt5Text == word5) {
+            edt5.setBackgroundColor(resources.getColor(R.color.chartrue))
         }
 
-        if (edt1Text != word1 && edt1Text != word2 && edt1Text != word3 && edt1Text != word4 && edt1Text != word5){
-            edt1.setBackgroundColor(Color.parseColor("#E9DAC1"))
+        if (edt1Text != word1 && edt1Text != word2 && edt1Text != word3 && edt1Text != word4 && edt1Text != word5) {
+            edt1.setBackgroundColor(resources.getColor(R.color.textbackground))
         }
 
-        if (edt2Text != word1 && edt2Text != word2 && edt2Text != word3 && edt2Text != word4 && edt2Text != word5){
-            edt2.setBackgroundColor(Color.parseColor("#E9DAC1"))
+        if (edt2Text != word1 && edt2Text != word2 && edt2Text != word3 && edt2Text != word4 && edt2Text != word5) {
+            edt2.setBackgroundColor(resources.getColor(R.color.textbackground))
         }
 
-        if (edt3Text != word1 && edt3Text != word2 && edt3Text != word3 && edt3Text != word4 && edt3Text != word5){
-            edt3.setBackgroundColor(Color.parseColor("#E9DAC1"))
+        if (edt3Text != word1 && edt3Text != word2 && edt3Text != word3 && edt3Text != word4 && edt3Text != word5) {
+            edt3.setBackgroundColor(resources.getColor(R.color.textbackground))
         }
 
-        if (edt4Text != word1 && edt4Text != word2 && edt4Text != word3 && edt4Text != word4 && edt4Text != word5){
-            edt4.setBackgroundColor(Color.parseColor("#E9DAC1"))
+        if (edt4Text != word1 && edt4Text != word2 && edt4Text != word3 && edt4Text != word4 && edt4Text != word5) {
+            edt4.setBackgroundColor(resources.getColor(R.color.textbackground))
         }
 
-        if (edt5Text != word1 && edt5Text != word2 && edt5Text != word3 && edt5Text != word4 && edt5Text != word5){
-            edt5.setBackgroundColor(Color.parseColor("#E9DAC1"))
+        if (edt5Text != word1 && edt5Text != word2 && edt5Text != word3 && edt5Text != word4 && edt5Text != word5) {
+            edt5.setBackgroundColor(resources.getColor(R.color.textbackground))
         }
 
-        if (edt1Text == word1 && edt2Text == word2 && edt3Text == word3 && edt4Text == word4 && edt5Text == word5){
-            Toast.makeText(this,"Tebrikler, Bildiniz!",Toast.LENGTH_SHORT).show()
+        if (edt1Text == word1 && edt2Text == word2 && edt3Text == word3 && edt4Text == word4 && edt5Text == word5) {
+            Toast.makeText(this, "Tebrikler, Bildiniz!", Toast.LENGTH_SHORT).show()
             binding.txtWinnerLooser.visibility = View.VISIBLE
             binding.txtWinnerLooser.text = "Tebrikler, Bildiniz!"
             makeGameInactive()
             return
         }
 
-        if (edt5.id == R.id.edt_65){
-            Toast.makeText(this,"Üzgünüm, Bilemediniz!",Toast.LENGTH_SHORT).show()
+        if (edt5.id == R.id.edt_65) {
+            Toast.makeText(this, "Üzgünüm, Bilemediniz!", Toast.LENGTH_SHORT).show()
             binding.txtWinnerLooser.visibility = View.VISIBLE
             binding.txtWinnerLooser.text = "Üzgünüm, Bilemediniz!"
             makeGameInactive()
@@ -183,7 +183,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    private fun makeGameInactive(){
+    private fun makeGameInactive() {
         binding.edt11.isEnabled = false
         binding.edt12.isEnabled = false
         binding.edt13.isEnabled = false
@@ -217,56 +217,56 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    private fun keepPassingFocus(){
-        passFocusToNextEditText(binding.edt11,binding.edt12)
-        passFocusToNextEditText(binding.edt12,binding.edt13)
-        passFocusToNextEditText(binding.edt13,binding.edt14)
-        passFocusToNextEditText(binding.edt14,binding.edt15)
+    private fun keepPassingFocus() {
+        passFocusToNextEditText(binding.edt11, binding.edt12)
+        passFocusToNextEditText(binding.edt12, binding.edt13)
+        passFocusToNextEditText(binding.edt13, binding.edt14)
+        passFocusToNextEditText(binding.edt14, binding.edt15)
 
-        passFocusToNextEditText(binding.edt21,binding.edt22)
-        passFocusToNextEditText(binding.edt22,binding.edt23)
-        passFocusToNextEditText(binding.edt23,binding.edt24)
-        passFocusToNextEditText(binding.edt24,binding.edt25)
+        passFocusToNextEditText(binding.edt21, binding.edt22)
+        passFocusToNextEditText(binding.edt22, binding.edt23)
+        passFocusToNextEditText(binding.edt23, binding.edt24)
+        passFocusToNextEditText(binding.edt24, binding.edt25)
 
-        passFocusToNextEditText(binding.edt31,binding.edt32)
-        passFocusToNextEditText(binding.edt32,binding.edt33)
-        passFocusToNextEditText(binding.edt33,binding.edt34)
-        passFocusToNextEditText(binding.edt34,binding.edt35)
+        passFocusToNextEditText(binding.edt31, binding.edt32)
+        passFocusToNextEditText(binding.edt32, binding.edt33)
+        passFocusToNextEditText(binding.edt33, binding.edt34)
+        passFocusToNextEditText(binding.edt34, binding.edt35)
 
-        passFocusToNextEditText(binding.edt41,binding.edt42)
-        passFocusToNextEditText(binding.edt42,binding.edt43)
-        passFocusToNextEditText(binding.edt43,binding.edt44)
-        passFocusToNextEditText(binding.edt44,binding.edt45)
+        passFocusToNextEditText(binding.edt41, binding.edt42)
+        passFocusToNextEditText(binding.edt42, binding.edt43)
+        passFocusToNextEditText(binding.edt43, binding.edt44)
+        passFocusToNextEditText(binding.edt44, binding.edt45)
 
-        passFocusToNextEditText(binding.edt51,binding.edt52)
-        passFocusToNextEditText(binding.edt52,binding.edt53)
-        passFocusToNextEditText(binding.edt53,binding.edt54)
-        passFocusToNextEditText(binding.edt54,binding.edt55)
+        passFocusToNextEditText(binding.edt51, binding.edt52)
+        passFocusToNextEditText(binding.edt52, binding.edt53)
+        passFocusToNextEditText(binding.edt53, binding.edt54)
+        passFocusToNextEditText(binding.edt54, binding.edt55)
 
-        passFocusToNextEditText(binding.edt61,binding.edt62)
-        passFocusToNextEditText(binding.edt62,binding.edt63)
-        passFocusToNextEditText(binding.edt63,binding.edt64)
-        passFocusToNextEditText(binding.edt64,binding.edt65)
+        passFocusToNextEditText(binding.edt61, binding.edt62)
+        passFocusToNextEditText(binding.edt62, binding.edt63)
+        passFocusToNextEditText(binding.edt63, binding.edt64)
+        passFocusToNextEditText(binding.edt64, binding.edt65)
     }
 
     private fun passFocusToNextEditText(
         edt1: EditText,
         edt2: EditText
-    ){
+    ) {
         edt1.addTextChangedListener(object : TextWatcher {
             override fun beforeTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {}
 
             override fun onTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {}
 
             override fun afterTextChanged(edt: Editable?) {
-                if (edt?.length==1){
+                if (edt?.length == 1) {
                     edt2.requestFocus()
                 }
             }
         })
     }
 
-    companion object{
+    companion object {
         private val WORD = "valiz"
     }
 }
